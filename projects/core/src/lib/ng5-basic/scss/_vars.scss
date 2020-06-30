@@ -1,29 +1,27 @@
-@import '../../../../node_modules/sass-material-colors/sass/sass-material-colors';
+@import '../../../../../../node_modules/sass-material-colors/sass/sass-material-colors';
 
 /// Default theme base variables
 $navigationWidth: 100px;
 $statusBarWidth: 275px;
-$theme-inverse:             white;
-$theme-color:               #4c84ff;
-$primary-text:              #212121;
-$secondary-text:            #757575;
-$divider:                   #BDBDBD;
-$background:                #FFFFFF;
-$dialect:                   silver;
+$theme-inverse: white;
+$theme-color: #4c84ff;
+$primary-text: #212121;
+$secondary-text: #757575;
+$divider: #bdbdbd;
+$background: #ffffff;
+$dialect: silver;
 $hover: rgba(230, 230, 230, 0.7);
-$shadow:                    rgba(0,0,0,0.3);
+$shadow: rgba(0, 0, 0, 0.3);
 
 /// Navigation variables
-$navigation:                #1a1a1c;
-$nav-icon:                  rgb(127,127,127);
-$nav-icon-hover:            rgb(49,52,53);
-$nav-icon-active:           rgb(170,170,170);
+$navigation: #1a1a1c;
+$nav-icon: rgb(127, 127, 127);
+$nav-icon-hover: rgb(49, 52, 53);
+$nav-icon-active: rgb(170, 170, 170);
 
-
-$appinfo:                   #eef1f8;
-$container:                 rgb(238,241,247);
-$smoothBorder:              1px solid rgba(255,255,255,0.3);
-
+$appinfo: #eef1f8;
+$container: rgb(238, 241, 247);
+$smoothBorder: 1px solid rgba(255, 255, 255, 0.3);
 
 $material-color: 'light-blue';
 $theme-color-900: material-color($material-color, '900');
@@ -37,7 +35,6 @@ $theme-color-200: material-color($material-color, '200');
 $theme-color-100: material-color($material-color, '100');
 $theme-color-50: material-color($material-color, '50');
 
-
 $error-color: 'amber';
 $error-color-900: material-color($error-color, '900');
 $error-color-800: material-color($error-color, '800');
@@ -49,6 +46,5 @@ $error-color-300: material-color($error-color, '300');
 $error-color-200: material-color($error-color, '200');
 $error-color-100: material-color($error-color, '100');
 $error-color-50: material-color($error-color, '50');
-
 
 $remarkTextColor: #7e57c2;
