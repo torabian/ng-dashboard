@@ -218,6 +218,7 @@ export interface INavigation {
   icon?: string;
   title: string;
   id?: string;
+  image?: any;
   $key?: string;
   active?: boolean;
   type?: 'INTER_TEAM' | 'PUBLIC' | 'NATIVE' | 'AngularRouter';

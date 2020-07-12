@@ -5,8 +5,8 @@
 >
   <a
     id="ngd-user-profile-button"
-    dropdownToggle
-    class="dropdown-toggle"
+    (click)="toggleMenu()"
+    class="dropdown-toggle "
     aria-controls="dropdown-animated"
   >
     <span>
@@ -17,8 +17,8 @@
   </a>
   <ul
     id="dropdown-animated"
-    *dropdownMenu
     class="dropdown-menu"
+    [class.show]="dropDownVisible"
     role="menu"
     aria-labelledby="button-animated"
   >

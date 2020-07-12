@@ -63,7 +63,8 @@
             class="ngx-menu-item ngx-menu-link-{{ nav.class }}"
             [routerLink]="itemLink(nav)"
           >
-            <i [class]="nav.icon"></i>
+            <i [class]="nav.icon" *ngIf="nav.icon"></i>
+            <img *ngIf="nav.image" class="menu-item-image" [src]="nav.image" />
             {{ nav.title | t }}
           </a>
         </li>

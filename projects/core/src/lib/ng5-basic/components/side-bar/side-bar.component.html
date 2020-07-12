@@ -7,9 +7,10 @@
     <ngx-sidebar [navigation]="nav"></ngx-sidebar>
   </div>
 
+  <!-- Disabled this feature -->
   <div
     class="ngd-sidebar-docked-bottom"
-    *ngIf="DockedMenu && DockedMenu.length"
+    *ngIf="false && DockedMenu && DockedMenu.length"
   >
     <ng-container *ngFor="let item of DockedMenu">
       <span

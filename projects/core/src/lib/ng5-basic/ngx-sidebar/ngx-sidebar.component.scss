@@ -20,7 +20,7 @@ ul li {
     font-family: 'material';
     display: inline-block;
     top: 16px;
-    right: 15px;
+    right: 13px;
     position: absolute;
     font-size: 20px;
     left: auto;
@@ -69,7 +69,7 @@ ul li {
       font-weight: 400;
       padding: 6px 20px;
       &:after {
-        top: 5px !important;
+        top: 2px !important;
       }
       @media (max-width: 992px) {
         padding: 12px 20px;
@@ -92,7 +92,6 @@ ul li {
 .child-ul {
   padding-left: 10px;
   display: none;
-  
 }
 
 .main-ul li.opened > ngx-sidebar > .child-ul {
@@ -163,4 +162,13 @@ ul li {
   to {
     opacity: 1;
   }
+}
+
+.ngx-menu-item {
+  display: flex;
+}
+
+.menu-item-image {
+  width: 20px;
+  margin-right: 5px;
 }

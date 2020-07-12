@@ -25,6 +25,7 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { HighlightModule } from 'ngx-highlightjs';
 import { ModalsComponent } from './docs/modals/modals.component';
 import { ToastsComponent } from './docs/toast/toast.component';
+import { UIElementsComponent } from './docs/ui-elements/ui-elements.component';
 
 // import { LottieModule } from 'ngx-lottie';
 
@@ -39,6 +40,7 @@ import { ToastsComponent } from './docs/toast/toast.component';
     SimpleToolbarComponent,
     ModalsComponent,
     ToastsComponent,
+    UIElementsComponent,
   ],
   imports: [
     NoopAnimationsModule,
@@ -47,7 +49,7 @@ import { ToastsComponent } from './docs/toast/toast.component';
     BrowserCookiesModule,
     // LottieModule.forRoot({ player: playerFactory }),
     NgDashboardModule.forRoot({
-      api: 'http://localhost:1337',
+      api: 'https://taxopit.com',
       auth: {
         afterSignupRedirect: '/',
       },

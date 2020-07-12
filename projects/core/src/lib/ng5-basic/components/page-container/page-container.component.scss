@@ -19,7 +19,6 @@
 }
 
 @include phone() {
-
   .ng-section-container-description {
     font-size: 13px;
   }
@@ -29,7 +28,7 @@
   display: inline-flex;
   align-items: center;
   i {
-    font-size: 36px;
+    font-size: 20px;
   }
 
   @include phone() {
@@ -42,7 +41,7 @@
   margin-left: 15px;
   cursor: pointer;
   &:hover {
-    color: #4c84ff
+    color: #4c84ff;
   }
 
   @include phone() {

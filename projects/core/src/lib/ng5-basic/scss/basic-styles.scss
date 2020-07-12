@@ -31,23 +31,28 @@ body[dir='rtl'] {
   border-radius: 3px;
   background: #fff;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-  padding: 15px;
-  margin: 15px 0 15px;
+  padding: 5px 10px 15px;
+  margin-bottom: 15px;
+
+  .box-wrapper-body-container {
+    margin-top: 15px;
+    padding: 0 10px;
+  }
+
   .box-title {
     width: 100%;
-    margin-bottom: 15px;
-    padding: 0 15px 15px;
-
+    padding: 10px 24px;
     border-bottom: 1px solid #eee;
+
     h2 {
       font-size: 20px;
       white-space: nowrap;
       text-overflow: ellipsis;
       margin: 0;
-      margin-bottom: 15px;
     }
     p {
-      margin: 0;
+      margin: 3px 0;
+      font-size: 14px;
     }
     .add-button {
       margin: 10px 0;

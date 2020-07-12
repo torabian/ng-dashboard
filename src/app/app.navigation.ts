@@ -24,6 +24,11 @@ export const AppNavigation: INavigation[] = [
         link: '/toast',
         activeMatches: ['^/toast$'],
       },
+      {
+        title: 'UI Elements',
+        link: '/ui-elements',
+        activeMatches: ['^/ui-elements$'],
+      },
     ],
   },
   {
